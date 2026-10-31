@@ -2,26 +2,33 @@
 
 //headers, outputs, and data structs
 #include <iostream>
+#include <fstream>
 #include <map>
 #include <array>
 #include <list>
 #include <string>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 
 // array indexes: 0 - trees, 1 - animals, 2 - foliage
 
 
-void loadData();
+void loadData(map<string, array<list<string>, 3>> &m, string f);
 void printMap(map<string, array<list<string>, 3>> &m);
 void simulateYear(map<string, array<list<string>, 3>> &m, int y);
 
 int main() {
+    srand(time(0));
     //map: key =forest type, val = array of 3 lists
-
     map<string, array<list<string>, 3>> m;
 
-    //loadData()
+    loadData(m,"data.txt");
+    cout << "Year 0" << endl;
+
+    printMap(m);
+
 
     //mockup
     m["Old Growth"][0].push_back("Redwood");
