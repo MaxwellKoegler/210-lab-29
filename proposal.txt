@@ -1,0 +1,20 @@
+Project Overview:
+My project is a deforestation simulator.
+It's a program designed to predict tree populations over the next 100 years (1 step per year).
+This software will illustrate the impact of tree removal and planting on forest populations.
+
+Implementation:
+I plan to use an std::map to store and manage data related to different plants and animals associated with each forestry condition.
+This map will categorize living organisms into three std::lists representing trees, animals, and foliage.
+The map will have its forest type (old growth, new growth) as its key.
+The map's value will be an array of these three lists.
+
+The old growth map entry would hold redwoods / owls / ferns.
+The new growth map entry might hold birch / deer / blackberries.
+The starting data is read from an external file with 100 lines.
+Each line in our data file to process would hold the forest type, organism type, and species name.
+The map gets printed every 5 years.
+
+Simulated events:
+The simulation will focus on three events: new forestry policies (removes/adds trees); climate events (removes/adds foliage); and hunting policy changes (adds/removes animals).
+At any given period, any of these three events could happen, affecting the ecosystem.
