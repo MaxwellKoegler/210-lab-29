@@ -8,9 +8,7 @@
 #include <string>
 using namespace std;
 
-
 // array indexes: 0 - trees, 1 - animals, 2 - foliage
-
 
 void loadData();
 void printMap(map<string, array<list<string>, 3>> &m);
@@ -20,9 +18,7 @@ int main() {
     //map: key =forest type, val = array of 3 lists
 
     map<string, array<list<string>, 3>> m;
-
     //loadData()
-
     //mockup
     m["Old Growth"][0].push_back("Redwood");
     m["Old Growth"][1].push_back("Owl");
@@ -35,7 +31,6 @@ int main() {
 
     for(int i = 1; i <=100; i++){
         simulateYear(m,i);
-
         if(i%5 == 0){
             printMap(m);
         }
@@ -55,7 +50,6 @@ void loadData() {
 //params: forest map
 void printMap(map<string, array<list<string>, 3>> &m) {
     string n[3]={"Trees", "Animals", "Foilage"};
-
     //goes throuhg each forest type in the map
     for(auto &p : m) {
         cout << p.first << ":" << endl;
