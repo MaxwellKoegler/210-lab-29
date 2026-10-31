@@ -123,8 +123,16 @@ void simulateYear(map<string,array<list<string>,3>> &m, int y){
     list<string> &l = (*p).second[i];
     cout << "Year " << y << ": " << e[i] << " in " << (*p).first << endl;
 
+    if(l.empty()) {
+        cout << "no " << n[i] << " left to change" << endl;
+        return;
+    }
 
-
-
-    //example
+    if(rand() % 2 == 0) {
+        cout << "added " << l.front() << endl;
+        l.push_back(l.front());
+    } else {
+        cout << "removed " << l.front() << endl;
+        l.pop_front();
+    }
 }
