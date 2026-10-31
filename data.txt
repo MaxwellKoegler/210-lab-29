@@ -1,0 +1,120 @@
+Old Growth,tree,Redwood
+Old Growth,tree,Redwood
+Old Growth,tree,Redwood
+Old Growth,tree,Redwood
+Old Growth,tree,Redwood
+Old Growth,tree,Redwood
+Old Growth,tree,Redwood
+Old Growth,tree,Redwood
+Old Growth,tree,Douglas Fir
+Old Growth,tree,Douglas Fir
+Old Growth,tree,Douglas Fir
+Old Growth,tree,Douglas Fir
+Old Growth,tree,Douglas Fir
+Old Growth,tree,Douglas Fir
+Old Growth,tree,Western Hemlock
+Old Growth,tree,Western Hemlock
+Old Growth,tree,Western Hemlock
+Old Growth,tree,Sitka Spruce
+Old Growth,tree,Sitka Spruce
+Old Growth,tree,Sitka Spruce
+Old Growth,animal,Spotted Owl
+Old Growth,animal,Spotted Owl
+Old Growth,animal,Spotted Owl
+Old Growth,animal,Black Bear
+Old Growth,animal,Black Bear
+Old Growth,animal,Elk
+Old Growth,animal,Elk
+Old Growth,animal,Marten
+Old Growth,animal,Marten
+Old Growth,animal,Woodpecker
+Old Growth,foliage,Sword Fern
+Old Growth,foliage,Sword Fern
+Old Growth,foliage,Sword Fern
+Old Growth,foliage,Sword Fern
+Old Growth,foliage,Moss
+Old Growth,foliage,Moss
+Old Growth,foliage,Moss
+Old Growth,foliage,Salal
+Old Growth,foliage,Salal
+Old Growth,foliage,Trillium
+New Growth,tree,Birch
+New Growth,tree,Birch
+New Growth,tree,Birch
+New Growth,tree,Birch
+New Growth,tree,Birch
+New Growth,tree,Birch
+New Growth,tree,Alder
+New Growth,tree,Alder
+New Growth,tree,Alder
+New Growth,tree,Alder
+New Growth,tree,Alder
+New Growth,tree,Alder
+New Growth,tree,Bigleaf Maple
+New Growth,tree,Bigleaf Maple
+New Growth,tree,Bigleaf Maple
+New Growth,tree,Bigleaf Maple
+New Growth,tree,Douglas Fir
+New Growth,tree,Douglas Fir
+New Growth,tree,Douglas Fir
+New Growth,tree,Douglas Fir
+New Growth,animal,Deer
+New Growth,animal,Deer
+New Growth,animal,Deer
+New Growth,animal,Deer
+New Growth,animal,Rabbit
+New Growth,animal,Rabbit
+New Growth,animal,Coyote
+New Growth,animal,Coyote
+New Growth,animal,Raccoon
+New Growth,animal,Raccoon
+New Growth,foliage,Blackberry
+New Growth,foliage,Blackberry
+New Growth,foliage,Blackberry
+New Growth,foliage,Blackberry
+New Growth,foliage,Huckleberry
+New Growth,foliage,Huckleberry
+New Growth,foliage,Huckleberry
+New Growth,foliage,Salmonberry
+New Growth,foliage,Salmonberry
+New Growth,foliage,Fern
+Clear-Cut,tree,Pine Seedling
+Clear-Cut,tree,Pine Seedling
+Clear-Cut,tree,Pine Seedling
+Clear-Cut,tree,Pine Seedling
+Clear-Cut,tree,Pine Seedling
+Clear-Cut,tree,Pine Seedling
+Clear-Cut,tree,Pine Seedling
+Clear-Cut,tree,Pine Seedling
+Clear-Cut,tree,Fir Seedling
+Clear-Cut,tree,Fir Seedling
+Clear-Cut,tree,Fir Seedling
+Clear-Cut,tree,Fir Seedling
+Clear-Cut,tree,Fir Seedling
+Clear-Cut,tree,Fir Seedling
+Clear-Cut,tree,Alder Seedling
+Clear-Cut,tree,Alder Seedling
+Clear-Cut,tree,Alder Seedling
+Clear-Cut,tree,Alder Seedling
+Clear-Cut,tree,Alder Seedling
+Clear-Cut,tree,Alder Seedling
+Clear-Cut,animal,Rabbit
+Clear-Cut,animal,Rabbit
+Clear-Cut,animal,Rabbit
+Clear-Cut,animal,Deer
+Clear-Cut,animal,Deer
+Clear-Cut,animal,Deer
+Clear-Cut,animal,Hawk
+Clear-Cut,animal,Hawk
+Clear-Cut,animal,Field Mouse
+Clear-Cut,animal,Field Mouse
+Clear-Cut,foliage,Fireweed
+Clear-Cut,foliage,Fireweed
+Clear-Cut,foliage,Fireweed
+Clear-Cut,foliage,Fireweed
+Clear-Cut,foliage,Grass
+Clear-Cut,foliage,Grass
+Clear-Cut,foliage,Grass
+Clear-Cut,foliage,Thistle
+Clear-Cut,foliage,Thistle
+Clear-Cut,foliage,Blackberry
