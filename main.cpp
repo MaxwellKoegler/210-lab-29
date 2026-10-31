@@ -28,7 +28,7 @@ int main() {
     cout << "Year 0" << endl;
 
     printMap(m);
-
+    //simulate the 100 years of policy rollouts
     for(int i = 1; i <= 100; i++) {
         simulateYear(m, i);
 
