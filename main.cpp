@@ -56,7 +56,7 @@ int main() {
 
 
 //placeholder data loading
-void loadData() {
+void loadData(map<string, array<list<string>, 3>> &m, string f) {
     //read line by line
     //input into proper map and sub locaiton
 
@@ -67,15 +67,15 @@ void loadData() {
     string c;
 
     while(getline(in, a, ',') && getline(in, b, ',') && getline(in, c)){
-        int i = 2;
+        int i = 2;//foliage
 
-        if(b == "tree"){
+        if(b == "tree"){ //tree
             i = 0;
         }
-        if(b == "animal"){
+        if(b == "animal"){ //animal
             i = 1;
         }
-        m[a][i].push_back(c);
+        m[a][i].push_back(c); //add to mapping
 
     }
 }
@@ -106,7 +106,25 @@ void simulateYear(map<string,array<list<string>,3>> &m, int y){
     //pick rand forest cond/type and event
     //forest policy: add/remove trees; climate event: add or remove foilage; hunting policy: add or remove animals
     //print what changed
+    
+    string e[3] = {"Forestry policy", "Hunting policy", "Climate event"};
+    string n[3] = {"trees", "animals", "foliage"};
+
+    //pick rand forest type
+
+    auto p = m.begin();
+    int r = rand() % m.size();
+
+    for(int k = 0; k < r; k++) {
+        p++;
+    }
+
+    int i = rand() % 3;
+    list<string> &l = (*p).second[i];
+    cout << "Year " << y << ": " << e[i] << " in " << (*p).first << endl;
+
+
+
 
     //example
-    cout << "Year " << y << ": event example (old growth trees: " << m["Old Growth"][0].size() << ")" << endl;
 }
