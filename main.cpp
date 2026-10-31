@@ -29,14 +29,15 @@ int main() {
 
     printMap(m);
 
+    for(int i = 1; i <= 100; i++) {
+        simulateYear(m, i);
 
-    //mockup
-    m["Old Growth"][0].push_back("Redwood");
-    m["Old Growth"][1].push_back("Owl");
-    m["Old Growth"][2].push_back("Fern");
+        if(i%5==0) {
+            cout << "Year: " << i << endl;
+            printMap(m);
+        }
+    }
 
-    cout << "year 0" << endl;
-    printMap(m);
 
     //run simulation steps
 
@@ -48,6 +49,8 @@ int main() {
         }
     }
 
+    return 0;
+
 }
 
 
@@ -56,6 +59,25 @@ int main() {
 void loadData() {
     //read line by line
     //input into proper map and sub locaiton
+
+    ifstream in(f);
+
+    string a;
+    string b;
+    string c;
+
+    while(getline(in, a, ',') && getline(in, b, ',') && getline(in, c)){
+        int i = 2;
+
+        if(b == "tree"){
+            i = 0;
+        }
+        if(b == "animal"){
+            i = 1;
+        }
+        m[a][i].push_back(c);
+
+    }
 }
 
 //function to print forest type and lists
