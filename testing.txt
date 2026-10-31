@@ -1,0 +1,39 @@
+I will use unit testing to ensure that load data will load the right number of items and keys.
+This would check that the map has the right number of forest types.
+It would also check that each organisim landed in the right list.
+Example test code:
+
+#include <iostream>
+#include <fstream>
+#include <map>
+#include <array>
+#include <list>
+using namespace std;
+
+void loadData(map<string, array<list<string>, 3>> &m, string f) {
+    ifstream in(f);
+    string a;
+    string b;
+    string c;
+    while(getline(in, a, ',') && getline(in, b, ',') && getline(in, c)){
+        int i = 2;
+        if(b=="tree"){
+            i = 0;
+        }
+        if(b=="animal"){
+            i = 1;
+        }
+        m[a][i].push_back(c);
+    }
+}
+
+int main() {
+    map<string, array<list<string>, 3>> m;
+    ofstream("test.txt") << "Old Growth,animal,Owl\n";
+    loadData(m, "test.txt");
+
+    if (m["Old Growth"][1].front() == "Owl"){
+          cout << "PASS";
+    }
+    else cout << "FAIL";
+}
