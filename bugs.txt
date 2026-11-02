@@ -1,0 +1,14 @@
+This is my example bug file. Unfoortuatly I built out my aplha completely before getting to This
+So now I dont have any bugs to report.
+Here are some sample entries:
+
+1) Improper data file handling, had to switch to using foliage as the default input, and conditionals otherwise
+2) Print map only had two nested for loops, adding the thrid allows for individual organism printing
+3) Improper data handling on variable input string lengths, Using the get line comma condition allowed for universal handling
+4) My randomizer for forest type wasnt bounded by forest type count, using a modulo on the random number fixed This
+5) Numerous cases of type dissagreement between mapings, using auto avoids the need for hardcoding
+6) I used pop at first for removal events, this cased map-shifting issues, and scrambled my indecies, I needed to switch to pop_front
+7) I mispelled one of my prototypes, the correction fixed the mishandle
+8) I had a stray ">" when dealing with function params, removing it enabled the program to run smoothly
+9) I kept over iterating through my mapping, correcting the loop bounds solve this
+10) I got the same results over and over again from my rand() untill I seeded it with time.
